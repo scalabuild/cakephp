@@ -11,40 +11,20 @@ width:100%;
 }
 
 
-body > #container > #header {
-	background-attachment: scroll;
-background-clip: border-box;
-background-color: #27AE60;
-background-image: none;
-background-origin: padding-box;
-background-size: auto;
-
-
-font-size: 14px;
-height: 70px;
+#container #header {
+	background-color: #27AE60;
+	font-size: 14px;
+	height: 50px;
 	color:#fff;
 }
+
 #content{
-background-attachment: scroll;
-background-clip: border-box;
-background-color: #27AE60;
-background-image: none;
-background-origin: padding-box;
-background-size: auto;
 font-size: 14px;
-min-height: 500px;
-color:#fff;
+color:#000;
 }
+
 #footer{
-	background-attachment: scroll;
-background-clip: border-box;
 background-color: #27AE60;
-background-image: none;
-background-origin: padding-box;
-background-size: auto;
-	border-top-color: #EEE;
-border-top-style: solid;
-border-top-width: 1px;
 height:50px;
 color:#fff;
 font-size: 14px;
