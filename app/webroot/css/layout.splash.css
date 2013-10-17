@@ -17,30 +17,25 @@ html, body {
 }
 */
 html, body, #container {
-	font: 14px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 14px/24px 'Whitney SSm A', 'Whitney SSm B', sans-serif;
 	line-height: 2;
 	color: #222;
 
 	background-color: #FFF;
 	height:100%;
 }
-
-
-
-.footer, .header, .push{
-	height:2em;
+.footer{
+	height:4em;
 }
-.header, .footer {
-	background-color: #27AE60;
-	color: #FEFEFE;
-}
-
 .content{
 
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: -2em auto -2em;
+	margin: 0em auto -4em;
 }
-
-
+#footer{
+	height:4em;
+	background-color: #27AE60;
+	color: #FEFEFE;
+}

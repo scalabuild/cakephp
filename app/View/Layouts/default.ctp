@@ -20,16 +20,13 @@
 	?>
 </head>
 <body>
-	<div id="container">	
-		<div class="header"></div>
+	<div id="container">
 		<div class="content">
-			<div class="push"></div>
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->fetch('content'); ?>
-
-			<div class="push"></div>
-		</div>
+		</div>	
 		<div class="footer"></div>
 	</div>
+	<div id="footer"></div>
 </body>
 </html>
