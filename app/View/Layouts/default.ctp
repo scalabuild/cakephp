@@ -23,7 +23,7 @@
 	<div id="container">	
 		<div class="header"></div>
 		<div class="content">
-			
+			<div class="push"></div>
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->fetch('content'); ?>
 
