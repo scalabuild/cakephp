@@ -16,7 +16,7 @@ html, body {
 	color: #333;
 }
 */
-html, body, #container {
+html, body{
 	font: 14px/24px 'Whitney SSm A', 'Whitney SSm B', sans-serif;
 	line-height: 2;
 	color: #222;
@@ -24,15 +24,16 @@ html, body, #container {
 	background-color: #FFF;
 	height:100%;
 }
-.footer{
-	height:4em;
-}
-.content{
 
+
+#container {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0em auto -4em;
+}
+#container .footer{
+	height:4em;
 }
 #footer{
 	height:4em;
