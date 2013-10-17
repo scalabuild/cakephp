@@ -94,9 +94,4 @@ class PagesController extends AppController {
 		}
 	}
 
-
-	public function view_active() {
-        $this->set('title_for_layout', 'View Active Users');
-        $this->layout = 'default_small_ad';
-    }
 }
