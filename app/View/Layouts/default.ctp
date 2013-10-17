@@ -21,18 +21,12 @@
 </head>
 <body>
 	<div id="container">
-		<div id="header"></div>
-		<div id="content">
+		<div class="header"></div>
+		<div class="content">
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		<div id="footer">
-		<!-- 
-		1. copyright
-		2. social links
-
-		-->
-		</div>
+		<div class="footer"></div>
 	</div>
 </body>
 </html>

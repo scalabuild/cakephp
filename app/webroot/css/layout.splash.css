@@ -1,30 +1,45 @@
-body {
-display: block;
-font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif;
-
-background-color: #FFF;
-color: #333;
-margin:0;
-text-align: center;
-width:100%;
+* {
+	margin:0;
 }
 
 
-#container #header {
+/*
+html, body {
+	display: block;
+	font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif;
+	
+	margin:0;
+	text-align: center;
+	width:100%;
+
+	background-color: #FFF;
+	color: #333;
+}
+*/
+html, body, #container {
+	height:100%;
+}
+
+
+.header, .footer {
 	background-color: #27AE60;
+}
+
+.header {
+	display:none;
+}
+
+.content{
 	font-size: 14px;
-	height: 50px;
-	color:#fff;
+	color:#000;
+
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
 }
 
-#content{
-font-size: 14px;
-color:#000;
-}
-
-#footer{
-background-color: #27AE60;
-height:50px;
-color:#fff;
-font-size: 14px;
+.footer, .push{
+	background-color: #27AE60;
+	height:4em;
 }
