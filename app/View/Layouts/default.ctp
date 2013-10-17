@@ -11,6 +11,9 @@
 	<title><?php echo $title_for_layout;?></title>
 	<?php
 		echo $this->Html->meta('icon');
+
+		echo $this->Html->css('layout.splash');
+
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -27,7 +30,7 @@
 		<!-- 
 		1. copyright
 		2. social links
-		
+
 		-->
 		</div>
 	</div>
