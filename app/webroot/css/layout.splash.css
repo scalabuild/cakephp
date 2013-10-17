@@ -17,21 +17,25 @@ html, body {
 }
 */
 html, body, #container {
+	font: 14px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 2;
+	color: #222;
+
+	background-color: #FFF;
 	height:100%;
 }
 
 
 .header, .footer {
 	background-color: #27AE60;
+	color: #FEFEFE;
 }
 
 .header {
-	display:none;
+	height:2em;
 }
 
 .content{
-	font-size: 14px;
-	color:#000;
 
 	min-height: 100%;
 	height: auto !important;
@@ -40,6 +44,5 @@ html, body, #container {
 }
 
 .footer, .push{
-	background-color: #27AE60;
 	height:4em;
 }

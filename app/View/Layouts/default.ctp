@@ -21,8 +21,9 @@
 </head>
 <body>
 	<div id="container">
-		<div class="header"></div>
+		
 		<div class="content">
+			<div class="header"></div>
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->fetch('content'); ?>
 		</div>
