@@ -31,7 +31,7 @@ html, body{
 	height: auto !important;
 	height: 100%;
 	margin: 0em auto -4em;
-	background: url('/img/bg-gears.png');
+	background: url('/img/bg-gears.png') no-repeat;
 }
 .top {
 	height:50px;
