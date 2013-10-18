@@ -31,7 +31,24 @@ html, body{
 	height: auto !important;
 	height: 100%;
 	margin: 0em auto -4em;
+	background: url('/img/bg-gears.png');
 }
+.top {
+	height:50px;
+}
+
+.nav {
+	float: right;
+	padding-left: 0;
+	list-style: none;
+}
+.nav>li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
 #container .footer{
 	height:4em;
 }
