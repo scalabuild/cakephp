@@ -31,14 +31,14 @@ html, body{
 		height: auto !important;
 		height: 100%;
 		margin: 0 auto -4em;
-		background: url('/img/bg-splash.png');
-		background-repeat:repeat-x;
+		/*background: url('/img/bg-splash.png');
+		background-repeat:repeat-x;*/
 
-		 /*
+		 
 		background:url('/img/bg-gears.png');
 background-size:100% 100%;
 background-repeat:no-repeat;
-*/
+
 	}	
 	#container .top {
 	height:30px;
